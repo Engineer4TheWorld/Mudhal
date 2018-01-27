@@ -1,0 +1,22 @@
+{
+  "name": "vidhai",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-scripts": "1.1.0"
+  },
+  "main": "src/electron-starter.js",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "electron": "electron .",
+    "start-app" : "npm start && npm run electron"
+  },
+  "devDependencies": {
+    "electron": "^1.7.11"
+  }
+}
